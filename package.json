@@ -1,0 +1,44 @@
+{
+  "name": "local-bone-to-world-bone",
+  "version": "0.0.1",
+  "description": "Get the world transformation matrices for a set of local bone positions",
+  "main": "src/local-bone-to-world-bone.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "standard && tape test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinedufn/local-bone-to-world-bone.git"
+  },
+  "keywords": [
+    "local",
+    "world",
+    "bone",
+    "transformation",
+    "matrix",
+    "matrices",
+    "skinning",
+    "skeletal",
+    "animation",
+    "mesh",
+    "vertex",
+    "animate",
+    "model"
+  ],
+  "author": "Chinedu Francis Nwafili <frankie.nwafili@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chinedufn/local-bone-to-world-bone/issues"
+  },
+  "homepage": "https://github.com/chinedufn/local-bone-to-world-bone#readme",
+  "dependencies": {
+    "gl-mat4": "^1.1.4"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  }
+}
