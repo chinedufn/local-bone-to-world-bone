@@ -3,10 +3,6 @@ local-bone-to-world-bone [![npm version](https://badge.fury.io/js/local-bone-to-
 
 > Calculate the world bone space matrices for a set of local bone space matrices
 
-Given a set of pose bones (that came from a keyframe time), joint relationships,
-and joint indices (in order to look up pose bones) calculate and return the world
-bone matrices for this set of pose bones
-
 ## Background / Initial motivation
 
 I'm exporting some pose matrices from Blender and want to calculate the world bone
