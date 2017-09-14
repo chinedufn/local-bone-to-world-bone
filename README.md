@@ -9,13 +9,6 @@ I'm exporting some pose matrices from Blender and want to calculate the world bo
 transformations. I wrote some code over a year ago in `collada-dae-parser` to do this
 but it was a bit hacky so wrote something that I can make use of outside standalone.
 
----
-
-Hmm I've now realized that Blender `poseBone.bone.matrix` is already in world bone space..
-Which means that the COLLADA exporter must use something else since those are all in local bone space..
-Which means that I don't actually need this lib right now since I'm using `poseBone.bone.matrix`..
-But.. hope it helps you at least!
-
 ## Install
 
 ```sh
